@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+
+.main-container {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  #table-container thead {
+      text-align: left;
+  }
+
+  td.details-control {
+    background: url('./assets/add.png') no-repeat center center;
+    cursor: pointer;
+    background-size: 20px 20px;
+}
+tr.shown td.details-control {
+    background: url('./assets/close.png') no-repeat center center;
+    background-size: 20px 20px;
+}
